@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <h1>
+        Login
+    </h1>
+    <!--importing google fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Noto+Sans+JP:wght@300&display=swap');
+    </style>
+</head>
+<body>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <div class="container">
+       
+        <form method="POST">
+            <div>
+            <label for="email">Email Id:</label>
+            <br>
+            <input placeholder="Enter your Email Id" id="email"type="email" name="email" required/>
+            </div>
+            <div>
+            <label for="password">Password:</label>
+            <br>
+            <input placeholder="Enter the password"id="password"type="password" name="password" required>
+            </div>
+            <button class="button" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="bottom">   
+        <div class="inline">
+        <p>Do not have a account?</p>
+        </div> 
+        <a href="/user/register">Register</a>
+    </div>
+        
+</body>
